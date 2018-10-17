@@ -1,3 +1,5 @@
+<link href="https://fonts.googleapis.com/css?family=Raleway:300,400" rel="stylesheet">
+
 .App {
   text-align: center;
 }
@@ -17,6 +19,46 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
+
+.container {
+width: 100%;
+height: 800px;
+background-color: transparent;
+float: left;
+margin: 0px;
+background-size: cover;
+overflow: hidden;
+}
+
+.nav-bar {
+
+margin: 40px 30px ;
+float:left;
+
+}
+.heading-name {
+  font-family: "Raleway", sans-serif;
+  font-size: 72px;
+  font-weight: 700;
+  letter-spacing: 10px;
+  text-indent: 12.5px;
+  color: black;
+  font-size: 30px;
+  text-align: center;
+  margin-top: 30%;
+  text-decoration: underline;
+  text-decoration-color:  #19A96A;
+  text-decoration-style: double;
+}
+.social-icons {
+float: right;
+margin: 40px 40px;
+font-size: 25px;
+color: black;
+
+
+}
+
 
 .App-link {
   color: #61dafb;
