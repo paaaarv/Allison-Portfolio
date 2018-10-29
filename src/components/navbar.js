@@ -23,7 +23,9 @@ export default class Navbar extends React.Component{
     return(
 
       <div style={{ backgroundImage: `url(${photo})`}} className="container">
-      <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet"/>
+      <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.2/css/all.css" integrity="sha384-/rXc/GQVaYpyDdyxK+ecHPVYJSN9bmVFBvjA/9eOB+pb3F2w2N6fc5qB9Ew5yIns" crossorigin="anonymous"/>
+
+
       <div className="nav-bar">
        <HamburgerMenu
        isOpen={this.state.open}
@@ -38,7 +40,7 @@ export default class Navbar extends React.Component{
        />
        </div>
        <div className="social-icons">
-        <a href="#" className="icoFacebook" title="Facebook"><i className="fa fa-facebook"></i></a> <a href="#" className="icoTwitter" title="Twitter"><i className="fa fa-twitter"></i></a>
+         <a href="https://www.instagram.com/alpantsmandy/" ><i className="fab fa-instagram"></i></a>
       </div>
 
           <Row className="heading-name"><h1>ALLISON MANDAVILLE</h1></Row>

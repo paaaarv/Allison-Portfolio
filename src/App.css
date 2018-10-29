@@ -1,5 +1,4 @@
-<link href="https://fonts.googleapis.com/css?family=Raleway:300,400" rel="stylesheet">
-
+@import url('https://fonts.googleapis.com/css?family=Raleway:300,400');
 .App {
   text-align: center;
 }
@@ -56,9 +55,19 @@ margin: 40px 40px;
 font-size: 25px;
 color: black;
 
+}
+
+.about-heading {
+  font-family: "Raleway", sans-serif;
+  font-size: 20px;
+  text-align: center;
 
 }
 
+
+.heading-decoration{
+  color: #19A96A;
+}
 
 .App-link {
   color: #61dafb;
