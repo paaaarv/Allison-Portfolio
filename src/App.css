@@ -5,31 +5,36 @@
 
 
 
-.container {
-width: 100%;
-height: 500px;
+.background-image-div {
+
+
 background-color: transparent;
-float: left;
+display:block;
+float: none;
+height: 100vh;
+width: 100vh;
+margin-bottom:150px;
 background-size: cover;
-overflow: hidden;
-margin-bottom: 50px;
 }
 
-.nav-bar {
 
-margin: 40px 30px ;
-float:left;
+.about {
+  padding: 20px 10px;
+  margin-top: 15px;
+
 
 }
 .heading-name {
-  font-family: "Megrim", cursive;
-  font-size: 35px;
-  letter-spacing:5px;
+  font-family: "Catamaran", sans-serif;
+  font-size: 70px;
+  text-align: center;
+  font-size-adjust: auto;
+  letter-spacing:15px;
   text-indent: 5.5px;
   color:black;
   text-align: center;
   margin-top: 30%;
-
+  margin-left: 60px;
   text-decoration: underline;
   text-decoration-color:  #19A96A;
   text-decoration-style:  double;
@@ -42,18 +47,12 @@ color: black;
 
 }
 
-.about-heading {
-  font-family: "Loved by the King", cursive;
-  font-size: 40px;
-  text-align: center;
 
-
-}
 
 .carouselImage {
   width: fill-available;
   height: 100%;
-  
+
 
 }
 
@@ -61,16 +60,39 @@ color: black;
   color: #19A96A;
 }
 
-.App-link {
-  color: #61dafb;
+
+.image-cropper {
+    position: relative;
+    overflow: hidden;
+
+}
+.profile-pic {
+  display: inline;
+  margin: 0px 0px;
+
+
+}
+.carousel-div{
+  position:relative;
+}
+.about-body{
+  font-family: "Loved by the King", cursive;
+  font-size: 25px;
+  padding: 30px;
+  text-align: left;
+  margin-bottom: 300px;
 }
 
 .lineHeading{
+
   font-family: "Loved by the King", cursive;
   text-align: center;
-  padding: 0px 200px;
+  padding: 30px 200px;
   display: block;
-  font-size: 25px;
+  font-size: 50px;
 
+}
 
+.projects-div{
+  margin-bottom: 300px;
 }

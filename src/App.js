@@ -8,10 +8,10 @@ import Instagram from './components/instagram.js'
 import 'jquery';
 class App extends Component {
 
-  
+
   render() {
     return (
-      <div className="main App">
+      <div>
 
           <Navbar/>
           <About/>
