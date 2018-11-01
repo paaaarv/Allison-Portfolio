@@ -4,23 +4,20 @@ import './App.css';
 import Navbar from './components/navbar.js'
 import About from './components/about.js'
 import Projects from './components/projects.js'
+import Instagram from './components/instagram.js'
+import 'jquery';
 class App extends Component {
+
+  
   render() {
     return (
-      <div className="App">
-      
-          <Navbar/> <br/> <br/>
-          <About />
-          <Projects/>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
+      <div className="main App">
 
-            Learn React
-          </a>
+          <Navbar/>
+          <About/>
+          <Projects/>
+          <Instagram/>
+
       </div>
     );
   }
