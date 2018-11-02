@@ -11,7 +11,8 @@ export default class About extends React.Component {
     return(
 
       <div className='about'>
-      <h3 className = "lineHeading"> <bold className="heading-decoration"> - </bold> ABOUT ALLISON <bold className="heading-decoration"> - </bold> </h3>
+      <h3 className = "lineHeading"> ABOUT ALLISON </h3>
+      <hr className="horizontal-line" align="center"/>
       <div className='row'>
       <View className="col-md-4">
         <img src={photo} className="profile-pic float-left img-fluid" alt="" />

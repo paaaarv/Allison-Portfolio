@@ -12,9 +12,11 @@ export default class Projects extends React.Component {
   render(){
     return(
 
-        <div className = "projects-div">
-          <h3 className="lineHeading"> <bold className="heading-decoration"> - </bold>PORTFOLIO<bold className="heading-decoration"> - </bold> </h3>
+        <div className = "projects-div ">
+          <h3 className="lineHeading">PORTFOLIO</h3>
+          <hr className="horizontal-line" align="center"/>
           <br/>
+          <div className='carousel-div'>
           <Container>
         <Carousel
           activeItem={1}
@@ -36,6 +38,7 @@ export default class Projects extends React.Component {
           </CarouselInner>
         </Carousel>
       </Container>
+      </div>
         </div>
     )
   }
