@@ -10,7 +10,7 @@
 background-color: transparent;
 display:block;
 float: none;
-height: 100vh;
+height: 102vh;
 width: 100vh;
 margin-bottom:150px;
 background-size: cover;
@@ -27,13 +27,13 @@ background-size: cover;
 }
 .heading-name {
   font-family: "Catamaran", sans-serif;
-  font-size: 4rem;
+  font-size: 3em;
   box-sizing: content-box;
   font-size-adjust: auto;
   letter-spacing:.3em;
   color:black;
   text-align: center;
-  margin-top: 20rem;
+  margin-top: 30rem;
   padding-left: 4rem;
   margin-left: auto;
   margin-right: auto;
@@ -43,8 +43,8 @@ background-size: cover;
 }
 .social-icons {
 float: right;
-margin: 40px 40px;
-font-size: 25px;
+margin: 5%;
+font-size: 2.5em;
 color: black;
 
 }
@@ -52,7 +52,6 @@ color: black;
 
 
 .carouselImage {
-  width: fill-available;
   height: 100%;
 }
 
@@ -101,7 +100,7 @@ color: black;
   margin: auto;
   text-align: center;
   display: block;
-  font-size: 3.2rem;
+  font-size: 5em;
 }
 
 .horizontal-line{

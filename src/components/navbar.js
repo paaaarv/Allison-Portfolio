@@ -32,7 +32,7 @@ export default class Navbar extends React.Component{
          <a href="https://www.instagram.com/alpantsmandy/" ><i className="fab fa-instagram"></i></a>
       </div>
 
-          <div className= "d-flex z-depth-10" ><h1 className="heading-name">ALLISON MANDAVILLE</h1></div>
+          <div className= "h1-responsive d-flex z-depth-10" ><h1 className="heading-name">ALLISON MANDAVILLE</h1></div>
 
        </div>
     )
