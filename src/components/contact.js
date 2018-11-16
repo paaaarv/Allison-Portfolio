@@ -13,7 +13,7 @@ export default class Contact extends React.Component{
       <div className="contact-div">
       <Grid>
       <Row>
-      <Col xs='7' sm='7' md='7' >
+      <Col xs='3' sm='4' md='7' >
         <h4> CONTACT </h4>
       </Col>
       <Col >
@@ -21,7 +21,7 @@ export default class Contact extends React.Component{
       </Col>
       </Row>
       <Row>
-      <Col xs='7' sm='7' md='7' >
+      <Col xs='3' sm='4' md='7' >
         <p className="contact-about"> allison.mandaville@gmail.com</p>
       </Col>
       <Col>
