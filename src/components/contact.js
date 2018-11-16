@@ -13,7 +13,7 @@ export default class Contact extends React.Component{
       <div className="contact-div">
       <Grid>
       <Row>
-      <Col>
+      <Col xs='7' sm='7' md='7' >
         <h4> CONTACT </h4>
       </Col>
       <Col >
@@ -21,10 +21,10 @@ export default class Contact extends React.Component{
       </Col>
       </Row>
       <Row>
-      <Col >
+      <Col xs='7' sm='7' md='7' >
         <p className="contact-about"> allison.mandaville@gmail.com</p>
       </Col>
-      <Col >
+      <Col>
         <a href="http://www.instagram.com/alpantsmandy" className='contact-about'> <i className="fab fa-instagram"></i> instagram </a>
       </Col>
       </Row>
