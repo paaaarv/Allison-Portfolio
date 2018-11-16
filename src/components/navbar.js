@@ -22,28 +22,17 @@ export default class Navbar extends React.Component{
   render(){
     return(
 
-      <div style={{ backgroundImage: `url(${photo})`}} className="z-depth-1 background-image-div container-fluid ">
+      <div style={{ backgroundImage: `url(${photo})`}} className="z-depth-0 background-image-div container-fluid ">
       <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.2/css/all.css" integrity="sha384-/rXc/GQVaYpyDdyxK+ecHPVYJSN9bmVFBvjA/9eOB+pb3F2w2N6fc5qB9Ew5yIns" crossorigin="anonymous"/>
 
 
       <div className="nav-bar">
-       <HamburgerMenu
-       isOpen={this.state.open}
-       menuClicked={this.handleClick.bind(this)}
-       width={18}
-       height={15}
-       strokeWidth={2}
-       rotate={0}
-       color='black'
-       borderRadius={0}
-       animationDuration={0.3}
-       />
        </div>
        <div className="social-icons">
          <a href="https://www.instagram.com/alpantsmandy/" ><i className="fab fa-instagram"></i></a>
       </div>
 
-          <div className= "d-flex justify-content-center z-depth-10"><h1 className="heading-name">ALLISON MANDAVILLE</h1></div>
+          <div className= "d-flex z-depth-10" ><h1 className="heading-name">ALLISON MANDAVILLE</h1></div>
 
        </div>
     )
