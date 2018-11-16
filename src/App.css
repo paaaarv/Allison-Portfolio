@@ -12,7 +12,7 @@ display:block;
 float: none;
 height: 102vh;
 width: 100vh;
-margin-bottom:150px;
+margin-bottom:50vh;
 background-size: cover;
 }
 
@@ -27,14 +27,14 @@ background-size: cover;
 }
 .heading-name {
   font-family: "Catamaran", sans-serif;
-  font-size: 3em;
+  font-size: 6vw;
   box-sizing: content-box;
   font-size-adjust: auto;
   letter-spacing:.3em;
   color:black;
   text-align: center;
-  margin-top: 30rem;
-  padding-left: 4rem;
+  margin-top: 40vh;
+  padding-left: 3vw;
   margin-left: auto;
   margin-right: auto;
   text-decoration: underline;
@@ -69,7 +69,7 @@ color: black;
 
 }
 .carousel-div{
-  width: 80%;
+  width: 100vw;
   margin: auto;
   padding-top: 100px;
 }
@@ -96,11 +96,11 @@ color: black;
 .lineHeading{
 
   font-family: "Catamaran", sans-serif;
-  letter-spacing: 7px;
+  letter-spacing: 2vw;
   margin: auto;
   text-align: center;
   display: block;
-  font-size: 5em;
+  font-size: 6vw;
 }
 
 .horizontal-line{
