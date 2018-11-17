@@ -118,15 +118,18 @@ color: black;
 
 .contact-div{
   box-sizing:border-box;
-  width: 100%;
-  text-align: center;
   color: #cccccc;
+  margin-left: 7em;
   font-family: "Catamaran", sans-serif;
 }
+
+
 
 .contact-about{
   color: #ff8cd8;
   font-family: "Open Sans Condensed", sans-serif;
+
   text-decoration: none;
+
   font-size: 2em;
 }

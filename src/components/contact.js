@@ -10,25 +10,20 @@ export default class Contact extends React.Component{
 
     return(
 
-      <div className="contact-div">
-      <Grid>
+      <div className="justify-content-center contact-div">
+
       <Row>
-      <Col xs='3' sm='4' md='7' >
-        <h4> CONTACT </h4>
+      <Col className=" flex-fill">
+        <h4> CONTACT </h4> <br/>
+        <p className="contact-about">allison.mandaville@gmail.com</p>
       </Col>
-      <Col >
-        <h4> CONNECT </h4>
-      </Col>
-      </Row>
-      <Row>
-      <Col xs='3' sm='4' md='7' >
-        <p className="contact-about"> allison.mandaville@gmail.com</p>
-      </Col>
-      <Col>
+      <Col className="flex-fill" >
+        <h4> CONNECT </h4><br/>
         <a href="http://www.instagram.com/alpantsmandy" className='contact-about'> <i className="fab fa-instagram"></i> instagram </a>
+
       </Col>
       </Row>
-      </Grid>
+
       </div>
 
 
