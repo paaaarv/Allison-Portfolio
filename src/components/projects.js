@@ -8,13 +8,15 @@ import photo6 from '../images/6.jpg'
 import photo1 from '../images/1.JPG'
 import photo2 from '../images/2.JPG'
 import ReactDOM from "react-dom";
+import ScrollAnimation from 'react-animate-on-scroll'
 export default class Projects extends React.Component {
 
 
   render(){
     return(
-
+      <ScrollAnimation animateIn="fadeIn" delay="3">
         <div className = "projects-div">
+        <link rel="stylesheet" href="animate.min.css"/>
           <h3 className="lineHeading">PORTFOLIO</h3>
           <hr className="horizontal-line" align="center"/>
           <br/>
@@ -25,7 +27,6 @@ export default class Projects extends React.Component {
           length={6}
           showControls={true}
           showIndicators={true}
-          thumbnails
           className="z-depth-5">
           <CarouselInner>
             <CarouselItem itemId="1">
@@ -51,6 +52,7 @@ export default class Projects extends React.Component {
       </Container>
       </div>
         </div>
+      </ScrollAnimation>
     )
   }
 

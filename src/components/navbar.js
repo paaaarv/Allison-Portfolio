@@ -1,7 +1,7 @@
 import React from 'react';
 import { Component } from 'react';
 import HamburgerMenu from 'react-hamburger-menu';
-import photo from '../images/Frontandcenter.jpg';
+import photo from '../images/IMG_3759.JPG';
 import { Row, Col, Grid, Image } from 'react-bootstrap';
 
 
@@ -22,7 +22,8 @@ export default class Navbar extends React.Component{
   render(){
     return(
 
-      <div style={{ backgroundImage: `url(${photo})`}} className="z-depth-0 background-image-div container-fluid ">
+      <div style={{ backgroundImage: `url(${photo})`}} className="w-auto z-depth-0 background-image-div ">
+
       <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.2/css/all.css" integrity="sha384-/rXc/GQVaYpyDdyxK+ecHPVYJSN9bmVFBvjA/9eOB+pb3F2w2N6fc5qB9Ew5yIns" crossorigin="anonymous"/>
 
 
