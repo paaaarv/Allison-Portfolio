@@ -74,7 +74,7 @@ export default class East extends React.Component{
                 <img src={smallImages[1]} alt="Gallery" className="img-fluid"  />
               </figure>
             </Col>
-            <Col xs='6' md="4">
+            <Col xs='12' md="4">
               <figure>
                 <img src={smallImages[2]} alt="Gallery" className="img-fluid"  />
               </figure>
@@ -89,7 +89,7 @@ export default class East extends React.Component{
                 <img src={smallImages[4]} alt="Gallery" className="img-fluid" />
               </figure>
             </Col>
-            <Col xs='6' md="4">
+            <Col xs='12' md="4">
               <figure>
                 <img src={smallImages[5]} alt="Gallery" className="img-fluid"/>
               </figure>
@@ -104,7 +104,7 @@ export default class East extends React.Component{
                 <img src={smallImages[7]} alt="Gallery" className="img-fluid" />
               </figure>
             </Col>
-          <Col xs='6' md="4">
+          <Col xs='12' md="4">
               <figure>
                 <img src={smallImages[8]} alt="Gallery" className="img-fluid"  />
               </figure>
