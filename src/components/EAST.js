@@ -61,47 +61,50 @@ export default class East extends React.Component{
           <Container className="mt-5">
         <div className="mdb-lightbox no-margin">
           <Row className="picturerow">
-            <Col xs='2' md="4">
+            <Col xs='12' md="12">
+
+            </Col>
+            <Col xs='6' md="4">
               <figure>
                 <img src={smallImages[0]} alt="Gallery" className="img-fluid" />
               </figure>
             </Col>
-            <Col xs='2' md="4">
+            <Col xs='6' md="4">
               <figure>
                 <img src={smallImages[1]} alt="Gallery" className="img-fluid"  />
               </figure>
             </Col>
-            <Col xs='2' md="4">
+            <Col xs='6' md="4">
               <figure>
                 <img src={smallImages[2]} alt="Gallery" className="img-fluid"  />
               </figure>
             </Col>
-            <Col xs='2' md="4">
+            <Col xs='6' md="4">
               <figure>
                 <img src={smallImages[3]} alt="Gallery" className="img-fluid"/>
               </figure>
             </Col>
-            <Col xs='2' md="4">
+            <Col xs='6' md="4">
               <figure>
                 <img src={smallImages[4]} alt="Gallery" className="img-fluid" />
               </figure>
             </Col>
-            <Col xs='2' md="4">
+            <Col xs='6' md="4">
               <figure>
                 <img src={smallImages[5]} alt="Gallery" className="img-fluid"/>
               </figure>
             </Col>
-            <Col xs='2' md="4">
+            <Col xs='6' md="4">
               <figure>
                 <img src={smallImages[6]} alt="Gallery" className="img-fluid"  />
               </figure>
             </Col>
-            <Col xs='2' md="4">
+            <Col xs='6' md="4">
               <figure>
                 <img src={smallImages[7]} alt="Gallery" className="img-fluid" />
               </figure>
             </Col>
-          <Col xs='2' md="4">
+          <Col xs='6' md="4">
               <figure>
                 <img src={smallImages[8]} alt="Gallery" className="img-fluid"  />
               </figure>
